@@ -3,7 +3,7 @@ function distanceFromHqInBlocks (yourBlock) {
   const blockDistance = yourBlock - 42;
 
 
-  return blockDistance;
+  return Math.abs(blockDistance);
 }
 function distanceFromHqInFeet (yourBlock) {
   const feetDistance = distanceFromHqInBlocks (yourBlock) * 264;
